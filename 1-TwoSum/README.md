@@ -59,6 +59,8 @@ public int[] twoSum(int[] nums, int target) {
 }
 ```
 
+---
+
 ### Approach 2: Two-pass Hash Table
 
 A simple implementation uses two iterations. In the first iteration, we add each element's value and its index to the table. Then, in the second iteration we check if each element's complement (target - x)exists in the table.
@@ -84,6 +86,8 @@ public int[] twoSum(int[] nums, int target) {
     throw new IllegalArgumentException("No two sum solution");
 }
 ```
+
+---
 
 ### Approach 3: One-pass Hash Table
 
