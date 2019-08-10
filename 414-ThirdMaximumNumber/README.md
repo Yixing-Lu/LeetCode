@@ -1,6 +1,6 @@
 Given a **non-empty** array of integers, return the **third** maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
-
+---
 
 ```
 Input: [3, 2, 1]
@@ -20,7 +20,7 @@ Input: [2, 2, 3, 1]
 Output: 1
 ```
 
-
+---
 
 ```java
 class Solution {
@@ -41,7 +41,7 @@ class Solution {
 }
 ```
 
-
+---
 
 Note:
 
