@@ -75,6 +75,7 @@ class Solution {
                 int temp = nums[cur];
                 nums[cur] = nums[lastNoneZeroFoundAt];
                 nums[lastNoneZeroFoundAt] = temp;
+              	// advance pointer
                 lastNoneZeroFoundAt ++;
             }
         }
