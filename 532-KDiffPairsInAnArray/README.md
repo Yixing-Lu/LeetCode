@@ -38,3 +38,10 @@ class Solution {
 }
 ```
 
+---
+
+**Map.getOrDefault(Object key, V defaultValue)**
+
+当Map集合中有这个key时，就使用这个key值；
+
+如果没有就使用默认值defaultValue。
