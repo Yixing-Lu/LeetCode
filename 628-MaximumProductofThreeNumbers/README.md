@@ -59,4 +59,3 @@ public class Solution {
 
 - Time complexity : *O*(*n*). Only one iteration over the nums array of length *n* is required.
 - Space complexity : *O*(1). Constant extra space is used. 
-
