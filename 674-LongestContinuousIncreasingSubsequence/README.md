@@ -26,4 +26,3 @@ class Solution {
 
 - Time Complexity: *O*(*N*), where *N* is the length of `nums`. We perform one loop through `nums`.
 - Space Complexity: *O*(1), the space used by `anchor` and `ans`.
-
