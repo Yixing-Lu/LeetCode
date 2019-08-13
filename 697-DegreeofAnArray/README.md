@@ -41,3 +41,13 @@ class Solution {
 - Time Complexity: *O*(*N*), where N*N* is the length of `nums`. Every loop is through *O*(*N*) items with *O*(1) work inside the for-block.
 - Space Complexity: *O*(*N*), the space used by `left`, `right`, and `count`.
 
+---
+
+**Note HashMap**
+
+put(K key, V value): 若已存在，覆盖
+
+get(Object key): 根据key找value，若无返回null
+
+.keySet() 获得key的集合
+
