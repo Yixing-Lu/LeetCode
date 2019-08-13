@@ -8,6 +8,8 @@ Given an unsorted array of integers, find the length of longest `continuous` inc
 
 ---
 
+
+
 Every (continuous) increasing subsequence is disjoint, and the boundary of each such subsequence occurs whenever `nums[i-1] >= nums[i]`. When it does, it marks the start of a new increasing subsequence at `nums[i]`, and we store such `i` in the variable `anchor`.
 
 ```java
@@ -25,4 +27,7 @@ class Solution {
 ```
 
 - Time Complexity: *O*(*N*), where *N* is the length of `nums`. We perform one loop through `nums`.
+
 - Space Complexity: *O*(1), the space used by `anchor` and `ans`.
+
+  
