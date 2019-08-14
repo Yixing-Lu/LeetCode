@@ -34,6 +34,5 @@ class Solution {
 }
 ```
 
-- Time Complexity: O(N)*O*(*N*), where N*N* is the length of `bits`.
+- Time Complexity: O*(*N*), where N*N* is the length of `bits`.
 - Space Complexity: *O*(1), the space used by `i`.
-
