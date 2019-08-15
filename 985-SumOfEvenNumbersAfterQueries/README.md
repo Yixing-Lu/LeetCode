@@ -75,3 +75,4 @@ class Solution {
 
 - Time Complexity: O(N+Q), where N is the length of `A` and Q is the number of `queries`.
 - Space Complexity: O(Q), though we only allocate O(1) additional space. 
+
