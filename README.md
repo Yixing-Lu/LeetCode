@@ -1,6 +1,3 @@
 # LeetCode
-To prepare for the interview, I start to code on LeetCode!
+Here are the problems on Leetcode with solution and analysis. I will also share notes of some algorithms and descriptions of popular methods in Java.
 
-I will show my solutions and other approachs to get better understanding of Java programming and Algorithms.
-
-Good Luck!
