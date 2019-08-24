@@ -38,3 +38,9 @@ Time Complexity: O(D)
 
 Space Complexity: O(1)
 
+---
+
+**Note**
+
+Integer.bitCount(x): 计算x的二进制中1的个数
+
