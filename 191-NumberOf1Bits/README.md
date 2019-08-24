@@ -56,3 +56,8 @@ public int hammingWeight(int n) {
 }
 ```
 
+---
+
+**Note**
+
+n &= (n - 1): flips the least-significant 1-bit in n*n* to 0
