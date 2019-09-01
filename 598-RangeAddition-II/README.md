@@ -42,3 +42,5 @@ public class Solution {
 }
 ```
 
+- Time complexity : O(x). Single traversal of all operations is done. x refers to the number of operations.
+- Space complexity : O(1). No extra space is used.
