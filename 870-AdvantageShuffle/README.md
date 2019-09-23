@@ -53,6 +53,6 @@ class Solution {
 }
 ```
 
-- Time Complexity: O*(*N*log*N*), where N is the length of `A` and `B`.
+- Time Complexity: O*(*N*log*N), where N is the length of `A` and `B`.
 - Space Complexity: O(N)
 
