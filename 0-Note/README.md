@@ -1,6 +1,6 @@
 # Basic
 
-###Numbers
+### Numbers
 
 ```java
 Integer, Double, Float, Long, Short
@@ -39,7 +39,7 @@ String toString(char ch)
 
 ---
 
-###String
+### String
 
 ```java
 String str = "hello, world";
