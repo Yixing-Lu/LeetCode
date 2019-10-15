@@ -1,6 +1,6 @@
 # Basic
 
-###Numbers
+### Numbers
 
 ```java
 Integer, Double, Float, Long, Short
