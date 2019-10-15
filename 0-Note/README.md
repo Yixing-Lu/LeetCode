@@ -274,7 +274,7 @@ public void bfs(TreeNode root) {
 
 ### DFS
 
-**Time**: $O(N)$
+**Time**: $ O(N) $
 
 **Space**: recursion stack.
 
