@@ -39,7 +39,7 @@ String toString(char ch)
 
 ---
 
-###String
+### String
 
 ```java
 String str = "hello, world";
@@ -243,9 +243,7 @@ String str2 = scan.nextLine()
 scan.close();
 ```
 
-
-
-#Algorithm
+# Algorithm
 
 ---
 
