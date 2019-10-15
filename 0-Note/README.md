@@ -249,7 +249,7 @@ scan.close();
 
 ### BFS
 
-**Time**: $O(N)$
+**Time**: O(N)​
 
 **Space**: 
 
@@ -295,9 +295,9 @@ public void dfs(TreeNode root) {
 
 ### Binary Search
 
-**Time**: $O(NlogN)$
+**Time**: O(NlogN)​
 
-**Space**: $O(1)$
+**Space**: O(1)​
 
 ```java
 public int search(int[] nums, int target) {
@@ -334,13 +334,13 @@ public int search(int[] nums, int target) {
 
 ### BackTrack
 
-**Time**: $O(2^N)$
+**Time**: O(2^N)​
 
-**Space**: $O(N)$ : height of tree
+**Space**: O(N): height of tree
 
 ```java
 private static backtrack(int x, StringBuilder sb, boolean[] visited, int count) {
-  	// current step
+    // current step
     String str = "1234";
     sb.append(str);
   	visited[x] = true;
