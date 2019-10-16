@@ -130,6 +130,8 @@ iterator()
 int[] num = new int[6];
 int[] num2 = {1,2,3};
 num.length;
+// fill
+Arrays.fill(num, -1);
 // sort
 Arrays.sort(num);
 Arrays.sort(B, Comparator.comparingInt(Math::abs));// sort by abs
@@ -183,6 +185,8 @@ iterator()
 ```
 
 ### PriorityQueue
+
+Time: O(logN)
 
 ```java
 PriorityQueue<Character> pq = new PriorityQueue<Character>((a, b) -> (a - b)); // 升序
@@ -242,6 +246,24 @@ if (scan.hasNextLine())
 String str2 = scan.nextLine()
 scan.close();
 ```
+
+---
+
+### Comparator
+
+```java
+PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
+            int comp = Integer.compare(a[0], b[0]);
+            if (comp == 0) {
+                if (a[1] == b[1])
+                    return Integer.compare(a[2], b[2]);
+                return Integer.compare(a[1], b[1]);
+            }
+            return comp;
+        });
+```
+
+
 
 # Algorithm
 
